@@ -1,0 +1,27 @@
+@import "../../../styles/variables";
+
+.table {
+  border-collapse: collapse;
+  table-layout: fixed;
+  width: 100%;
+
+  @media screen and (max-width: $breakpoint-mobile) {
+    width: auto;
+  }
+
+  th {
+    padding: 6px 6px 12px;
+
+    &.ordered-by {
+      color: $fg-red-1;
+    }
+  }
+
+  td {
+    padding: 6px;
+
+    text-align: center;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+  }
+}

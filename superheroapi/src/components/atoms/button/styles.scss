@@ -1,0 +1,17 @@
+.button {
+  display: block;
+  width: 100%;
+  padding: 6px 10px;
+  font-family: "Source Sans Pro", sans-serif;
+  cursor: pointer;
+
+  &.clear {
+    padding: 12px;
+    background: none;
+    border: none;
+  }
+
+  &:focus {
+    outline: none;
+  }
+}
