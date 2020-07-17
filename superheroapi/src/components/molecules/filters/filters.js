@@ -1,7 +1,7 @@
 import * as React from "react";
 import "./styles.scss";
 import store from "../../../app/store";
-import { setOrder } from "../heroes/heroesSlice";
+import { setOrder } from "../../organisms/heroes/heroesSlice";
 import Label from "../../atoms/label/label";
 import Select from "../../atoms/select/select";
 import { connect } from "react-redux";
